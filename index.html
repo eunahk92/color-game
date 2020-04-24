@@ -128,7 +128,7 @@
           var newColorLi = $("<li>" + colors[i] + "</li>");
           // colorsList.attr('data-name', colorsOfText[i]);
           newColorLi.css("color", colorsOfText[i]);
-          newColorLi.attr("data-name", colorsOfText[i]);
+          newColorLi.attr("data-name", colors[i]);
           colorsList.append(newColorLi);
 
         }
@@ -153,8 +153,8 @@
       // Get id of element clicked by user
       $("#color-picker").click(function(event) {
         if (event.target.matches("li")) {
-          var colorName = event.target.getAttribute('data-name');
-          if (colorName == targetColor) {
+          userAnswer = event.target.getAttribute('data-name');
+          if (userAnswer == targetColorOfText) {
             alert("Yes, that is correct!");
             clear();
             reset();
