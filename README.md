@@ -2,7 +2,11 @@
 
 Objective of the game is to pick the color of the target word shown from the list of colors below it.
 
-# Acceptance Criteria
+## Deployed Application
+
+https://eunahk92.github.io/color-game/
+
+## Acceptance Criteria
 
 * The game should generate a random color string (ie, "green" or "blue") that is displayed in a random color. We'll cause this the current color.
 
@@ -14,7 +18,7 @@ Objective of the game is to pick the color of the target word shown from the lis
 
 * After the alert, the game should reset.
 
-# Contributors
+## Contributors
 
 * Triology Education Services
 * Eunah Kim
